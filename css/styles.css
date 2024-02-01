@@ -1,0 +1,84 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background-color: hsl(0, 0%, 8%);
+}
+body h1, body h2, body h3, body h4, body p {
+  font-family: "Inter", "Helvetica Neue", Arial;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 375px;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 1em;
+  padding: 2em;
+  margin-bottom: 10px;
+}
+.wrapper img {
+  border-radius: 50%;
+  width: 30%;
+  display: block;
+  margin-bottom: 0.5em;
+}
+.wrapper h1 {
+  color: white;
+  margin: 0.4em;
+}
+.wrapper h4 {
+  color: hsl(75, 94%, 57%);
+  margin-bottom: 1em;
+}
+.wrapper p {
+  color: white;
+  font-size: 14px;
+  margin: 1em;
+}
+.wrapper button {
+  width: 100%;
+  height: 3em;
+  border-radius: 1em;
+  margin: 0.5em;
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+  font-size: 16px;
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial;
+  font-weight: 700;
+}
+.wrapper button:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
